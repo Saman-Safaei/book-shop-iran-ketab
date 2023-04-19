@@ -5,6 +5,7 @@ import Image from "next/image";
 import logo from "~/logo.png";
 import { Bag, Profile, SearchNormal1 } from "iconsax-react";
 import NavbarLink from "@/components/navbar/NavbarLink";
+import Search from "@/components/navbar/Search";
 
 export interface NavbarProps {}
 
@@ -31,17 +32,13 @@ const Navbar: FC<NavbarProps> = () => {
         </ul>
         <ul className="flex flex-row-reverse h-full items-center gap-[10px]">
           <li>
-            <Bag size="34" className="text-primary-main" variant="Linear" />
+            <Bag size="30" className="text-primary-main" variant="Linear" />
           </li>
           <li>
-            <Profile size="34" className="text-primary-main" variant="Linear" />
+            <Profile size="30" className="text-primary-main" variant="Linear" />
           </li>
           <li>
-            <SearchNormal1
-              size="34"
-              className="text-primary-main"
-              variant="Linear"
-            />
+            <Search />
           </li>
         </ul>
       </div>
