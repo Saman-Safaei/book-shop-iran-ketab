@@ -31,6 +31,8 @@ export interface MasterLayoutProps {
   children?: ReactNode;
   index?: boolean;
   pageTitle?: string;
+  header?: boolean;
+  navbar?: boolean;
 }
 
 const MasterLayout: FC<MasterLayoutProps> = (props) => {
@@ -43,8 +45,8 @@ const MasterLayout: FC<MasterLayoutProps> = (props) => {
       </Head>
       <div
         className={`${localFont.variable} ${vazirmatn.variable} font-sans text-text-main`}>
-        <Navbar />
-        <Header isIndex={props.index} />
+        {props.navbar && <Navbar />}
+        {props.header && <Header isIndex={props.index} />}
         <main>{props.children}</main>
       </div>
     </Fragment>
