@@ -7,7 +7,7 @@ import {Fragment} from "react";
 import Head from "next/head";
 
 const vazirmatn = Vazirmatn({
-  subsets: ["latin", "arabic"],
+  subsets: ["latin"],
   variable: "--vazirmatn",
 });
 
@@ -44,7 +44,7 @@ const MasterLayout: FC<MasterLayoutProps> = (props) => {
         <title>{pageTitle}</title>
       </Head>
       <div
-        className={`${localFont.variable} ${vazirmatn.variable} font-sans text-text-main`}>
+        className={`${vazirmatn.variable} ${localFont.variable} font-sans text-text-main`}>
         {props.navbar && <Navbar />}
         {props.header && <Header isIndex={props.index} />}
         <main>{props.children}</main>
