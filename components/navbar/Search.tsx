@@ -14,7 +14,7 @@ const Search: FC<SearchProps> = () => {
   return (
     <div
       onClick={clickHandler}
-      className={`cursor-pointer group flex flex-row items-center gap-0 focus-within:gap-2 focus-within:bg-primary-100 focus-within:py-2 focus-within:px-3 focus-within:rounded-md border-solid border-transparent border-2 focus-within:border-primary-main transition-all duration-300`}>
+      className={`cursor-pointer group flex flex-row items-center gap-0 focus-within:gap-2 focus-within:bg-primary-50 focus-within:py-2 focus-within:px-3 focus-within:rounded-md border-solid border-transparent border-2 focus-within:border-primary-main transition-all duration-300`}>
       <SearchNormal1 size="30" className="text-primary-main group-focus-within:text-text-200 transition-colors duration-300" variant="Linear" />
       <input
         ref={inputRef}
