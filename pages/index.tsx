@@ -9,7 +9,7 @@ const HomePage: NextPageWithLayout<HomePageProps> = () => {
 };
 
 HomePage.getLayout = (page) => (
-  <MasterLayout index pageTitle="خانه" header navbar>{page}</MasterLayout>
+  <MasterLayout index pageTitle="خانه" header navbar footer>{page}</MasterLayout>
 );
 
 export default HomePage;
