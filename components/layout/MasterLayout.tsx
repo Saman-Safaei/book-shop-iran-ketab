@@ -1,10 +1,12 @@
 import type { FC, ReactNode } from "react";
-import Header from "@/components/header/Header";
-import { Vazirmatn } from "next/font/google";
-import LocalFont from "next/font/local";
-import Navbar from "@/components/navbar/Navbar";
-import {Fragment} from "react";
 import Head from "next/head";
+import { Fragment } from "react";
+import LocalFont from "next/font/local";
+import { Vazirmatn } from "next/font/google";
+import Header from "@/components/header/Header";
+import Navbar from "@/components/navbar/Navbar";
+import Footer from "@/components/footer/Footer";
+import Sidebar from "@/components/sidebar/Sidebar";
 
 const vazirmatn = Vazirmatn({
   subsets: ["latin"],
@@ -33,11 +35,14 @@ export interface MasterLayoutProps {
   pageTitle?: string;
   header?: boolean;
   navbar?: boolean;
+  footer?: boolean;
 }
 
 const MasterLayout: FC<MasterLayoutProps> = (props) => {
-  const pageTitle = props.pageTitle ? `${props.pageTitle} - ایران کتاب` : 'ایران کتاب'
-  
+  const pageTitle = props.pageTitle
+    ? `${props.pageTitle} - ایران کتاب`
+    : "ایران کتاب";
+
   return (
     <Fragment>
       <Head>
@@ -46,8 +51,10 @@ const MasterLayout: FC<MasterLayoutProps> = (props) => {
       <div
         className={`${vazirmatn.variable} ${localFont.variable} font-sans text-text-main`}>
         {props.navbar && <Navbar />}
+        {props.navbar && <Sidebar />}
         {props.header && <Header isIndex={props.index} />}
         <main>{props.children}</main>
+        {props.footer && <Footer />}
       </div>
     </Fragment>
   );
