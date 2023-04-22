@@ -1,0 +1,49 @@
+/* Fade Animation ----------------------------------------------------------------------------------------------------*/
+.fade-enter {
+    opacity: 0;
+}
+.fade-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit-active {
+    opacity: 0;
+    transition: opacity 300ms;
+}
+/* Slide Animation ---------------------------------------------------------------------------------------------------*/
+
+.slide-enter {
+    transform: translateX(100%);
+}
+.slide-enter-active {
+    transform: translateX(0);
+    transition: transform 300ms;
+}
+.slide-exit {
+    transform: translateX(0);
+}
+.slide-exit-active {
+    transform: translateX(100%);
+    transition: transform 300ms;
+}
+
+@keyframes sp {
+    0% {
+        transform: translateY(0.5rem);
+    }
+    50% {
+        transform: translateY(-0.5rem);
+    }
+    100% {
+        transform: translateY(0.5rem);
+    }
+}
+
+.sp-anim {
+    -webkit-animation: sp infinite 2s ease-in-out;
+    -o-animation: sp infinite 2s ease-in-out;
+    animation: sp infinite 2s ease-in-out;
+}
