@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+    --primary-color: #FD8F32;
+}
+
+@layer base {
+    * {
+        -webkit-tap-highlight-color: transparent;
+    }
+}
