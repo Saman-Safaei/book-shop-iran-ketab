@@ -146,8 +146,8 @@ const Footer: FC<FooterProps> = () => {
                 className="shrink-0"
               />
               <p>
-                تهران، خیابان ملاصدرا، خیابان گلدشت، کوچه گلدشت یکم، پلاک ۱۴، کد
-                پستی ۱۹۹۳۶۴۳۶۵۱
+                تهران، خیابان ملاصدرا، خیابان گلدشت، کوچه گلدشت یکم، پلاک 14، کد
+                پستی 1993643651
               </p>
             </div>
             <div className="flex flex-row items-start gap-2">
@@ -173,7 +173,7 @@ const Footer: FC<FooterProps> = () => {
               />
               <p>info@iranketab.com</p>
             </div>
-            <div className="grid grid-cols-2 gap-6">
+            <div className="grid grid-cols-[80px,80px] gap-6">
               <Image className="w-full" src={eSymbol1} alt={"icon"} />
               <Image className="w-full" src={eSymbol2} alt={"icon"} />
             </div>
