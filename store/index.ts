@@ -7,7 +7,7 @@ const createStore = () => {
     reducer: {
       [uiSlice.name]: uiSlice.reducer,
     },
-    devTools: false,
+    devTools: process.env.NODE_ENV === 'development',
   });
 };
 
