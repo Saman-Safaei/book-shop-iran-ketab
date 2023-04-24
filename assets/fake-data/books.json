@@ -1,0 +1,10 @@
+[
+  { "image": "/images/sleep.jpeg", "id": 0, "title": "test", "price": 3000 },
+  { "image": "/images/sleep.jpeg", "id": 1, "title": "test", "price": 3000 },
+  { "image": "/images/sleep.jpeg", "id": 2, "title": "test", "price": 3000 },
+  { "image": "/images/sleep.jpeg", "id": 3, "title": "test", "price": 3000 },
+  { "image": "/images/sleep.jpeg", "id": 4, "title": "test", "price": 3000 },
+  { "image": "/images/sleep.jpeg", "id": 5, "title": "test", "price": 3000 },
+  { "image": "/images/sleep.jpeg", "id": 6, "title": "test", "price": 3000 },
+  { "image": "/images/sleep.jpeg", "id": 7, "title": "test", "price": 3000 }
+]
