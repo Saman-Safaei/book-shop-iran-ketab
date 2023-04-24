@@ -6,6 +6,7 @@ import { Provider } from "react-redux";
 import createStore from "@/store";
 import "@/styles/globals.css";
 import "@/styles/animate-classes.css";
+import 'swiper/css';
 
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode;
