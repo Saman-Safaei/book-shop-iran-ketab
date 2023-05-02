@@ -1,8 +1,8 @@
 import type { FC, ReactNode } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { ArrowLeft, ArrowLeft2, ArrowRight2} from "iconsax-react";
-import SliderBook from "@/components/pages/home/SliderBook";
-import BooksSectionButton from "@/components/pages/home/BooksSectionButton";
+import SliderBook from "@/components/book-slider/SliderBook";
+import BooksSectionButton from "@/components/book-slider/BooksSectionButton";
 
 export interface BooksSectionProps {
   icon?: ReactNode;
@@ -13,7 +13,7 @@ export interface BooksSectionProps {
 
 const BooksSection: FC<BooksSectionProps> = (props) => {
   return (
-    <section className="mx-auto max-w-7xl px-4">
+    <section className="mx-auto max-w-7xl w-full px-4">
       <div className="flex flex-row items-center justify-between py-4">
         <div className="flex flex-row items-center gap-2">
           {props.icon}
