@@ -31,6 +31,7 @@ const localFont = LocalFont({
 
 export interface MasterLayoutProps {
   children?: ReactNode;
+  mainClassName?: string;
   index?: boolean;
   pageTitle?: string;
   header?: boolean;
@@ -42,6 +43,8 @@ const MasterLayout: FC<MasterLayoutProps> = (props) => {
   const pageTitle = props.pageTitle
     ? `${props.pageTitle} - ایران کتاب`
     : "ایران کتاب";
+  
+  const mainClasses = props.mainClassName ?? "";
 
   return (
     <Fragment>
@@ -53,7 +56,7 @@ const MasterLayout: FC<MasterLayoutProps> = (props) => {
         {props.navbar && <Navbar />}
         {props.navbar && <Sidebar />}
         {props.header && <Header isIndex={props.index} />}
-        <main>{props.children}</main>
+        <main className={mainClasses}>{props.children}</main>
         {props.footer && <Footer />}
       </div>
     </Fragment>
