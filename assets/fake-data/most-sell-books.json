@@ -1,0 +1,50 @@
+[
+  {
+    "image": "/images/books/f7984cc73812ee02d4e666992141f312.jpg",
+    "id": 0,
+    "title": "رویا های بانکرهیل",
+    "price": 98000
+  },
+  {
+    "image": "/images/books/b568f25b0b5ce44724a94ceff2404659.jpg",
+    "id": 1,
+    "title": "زیر درختچه یاسمن",
+    "price": 87500
+  },
+  {
+    "image": "/images/books/f8d0868c80873a0f27d9ca278ab12626.jpg",
+    "id": 2,
+    "title": "وزن کلمات",
+    "price": 122000
+  },
+  {
+    "image": "/images/books/c927f2e8fb8568cf66f42bf017af257b.jpg",
+    "id": 3,
+    "title": "مرگ الیویه بکای",
+    "price": 62200
+  },
+  {
+    "image": "/images/books/sleep.jpeg",
+    "id": 4,
+    "title": "دیار خواب گردی",
+    "price": 240000
+  },
+  {
+    "image": "/images/books/6b9c9c92305b84c38556374adaa7b41a.jpg",
+    "id": 5,
+    "title": "دل ما",
+    "price": 32500
+  },
+  {
+    "image": "/images/books/3f6106f399227aa16ca3fba03b0108b6.jpg",
+    "id": 6,
+    "title": "از غبار بپرس",
+    "price": 74300
+  },
+  {
+    "image": "/images/books/bfb3d5f797ad8ac21f727c840419e59a.jpg",
+    "id": 7,
+    "title": "امنیت و دو داستان دیگر",
+    "price": 82500
+  }
+]
