@@ -3,6 +3,8 @@ import { Fragment } from "react";
 import MasterLayout from "@/components/layout/MasterLayout";
 import BooksSection from "@/components/book-slider/BooksSection";
 import { Crown, Flash } from "iconsax-react";
+import SiteBanner1 from "@/components/pages/home/SiteBanner1";
+import SiteBanner2 from "@/components/pages/home/SiteBanner2";
 
 import books from "@/assets/fake-data/new-books.json";
 import mostSellBooks from '@/assets/fake-data/most-sell-books.json';
@@ -24,6 +26,8 @@ const HomePage: NextPageWithLayout<HomePageProps> = () => {
         icon={<Crown size="24" />}
         products={mostSellBooks}
       />
+      <SiteBanner1 />
+      <SiteBanner2 />
     </Fragment>
   );
 };
