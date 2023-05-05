@@ -1,8 +1,8 @@
 import type { NextPageWithLayout } from "@/pages/_app";
 import { Fragment } from "react";
+import { Crown, Flash } from "iconsax-react";
 import MasterLayout from "@/components/layout/MasterLayout";
 import BooksSection from "@/components/book-slider/BooksSection";
-import { Crown, Flash } from "iconsax-react";
 import SiteBanner1 from "@/components/pages/home/SiteBanner1";
 import SiteBanner2 from "@/components/pages/home/SiteBanner2";
 
