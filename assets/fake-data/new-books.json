@@ -1,0 +1,56 @@
+[
+  {
+    "image": "/images/books/sleep.jpeg",
+    "id": 0,
+    "title": "دیار خواب گردی",
+    "price": 240000
+  },
+  {
+    "image": "/images/books/days-like-today.jpeg",
+    "id": 1,
+    "title": "روزی مانند امروز",
+    "price": 54300
+  },
+  {
+    "image": "/images/books/house-before-darkness.jpeg",
+    "id": 2,
+    "title": "خانه ای پیش از تاریکی",
+    "price": 87500
+  },
+  {
+    "image": "/images/books/johnatan.jpeg",
+    "id": 3,
+    "title": "جاناتان مرغ دریایی",
+    "price": 42500
+  },
+  {
+    "image": "/images/books/memories-of-you.jpeg",
+    "id": 4,
+    "title": "یاد او",
+    "price": 45000
+  },
+  {
+    "image": "/images/books/d52a7979b3e2763b12e2559947aa7005.jpeg",
+    "id": 5,
+    "title": "جایی که خرچنگ ها آواز می خوانند",
+    "price": 32500
+  },
+  {
+    "image": "/images/books/2a737a8f65a3eb8dbef3cdb3593f9cd1.jpeg",
+    "id": 6,
+    "title": "به خانه بیا",
+    "price": 74300
+  },
+  {
+    "image": "/images/books/dea320b9bbea701ca504063a8e76fce4.jpeg",
+    "id": 7,
+    "title": "کاخ کاغذی",
+    "price": 82500
+  },
+  {
+    "image": "/images/books/652ac0ae20443ae20603305e9abf7f36.jpeg",
+    "id": 7,
+    "title": "زندگی کوتاه است",
+    "price": 55000
+  }
+]
