@@ -1,0 +1,50 @@
+[
+  {
+    "image": "/images/books/f5f3b94f021d1225dd12e8af32f129b3.jpeg",
+    "id": 0,
+    "title": "تا بهار صبر کن",
+    "price": 120000
+  },
+  {
+    "image": "/images/books/2b31ca3c33229bf21e2fbb0c1822768b.jpeg",
+    "id": 1,
+    "title": "گابریل لامبر",
+    "price": 87500
+  },
+  {
+    "image": "/images/books/a3147dce42ace94567edd9a7b40051f6.jpeg",
+    "id": 2,
+    "title": "تصویر مادر در قاب جوانی",
+    "price": 242000
+  },
+  {
+    "image": "/images/books/642194edd62b12c617ccac461efb0915.jpeg",
+    "id": 3,
+    "title": "لوکیس و چند داستان دیگر",
+    "price": 70000
+  },
+  {
+    "image": "/images/books/0554f13e44bf097d747fb1f1e67ac8f1.jpeg",
+    "id": 4,
+    "title": "جاده لس آنجلس",
+    "price": 240000
+  },
+  {
+    "image": "/images/books/10a8b9eec8fcdac278f957d06af2393b.jpeg",
+    "id": 5,
+    "title": "ناهنجاری",
+    "price": 32500
+  },
+  {
+    "image": "/images/books/33d3677ef01cbb5961800662c51254db.jpeg",
+    "id": 6,
+    "title": "مستند عقاب",
+    "price": 74300
+  },
+  {
+    "image": "/images/books/9e918e02c72ed9951121e2aa0ea7d18e.jpeg",
+    "id": 7,
+    "title": "جویس در تعطیلات",
+    "price": 82500
+  }
+]
