@@ -13,7 +13,7 @@ const About: FC<AboutProps> = () => {
     <Container component="section">
       <div className="flex flex-row items-center gap-2">
         <Book variant="Linear" size="26" />
-        <h3 className="font-bold">درباره ایران کتاب</h3>
+        <h3 className="font-bold text-xl">درباره ایران کتاب</h3>
       </div>
       <div className="flex flex-col items-stretch gap-6 lg:flex-row lg:items-center lg:gap-28">
         <Image
