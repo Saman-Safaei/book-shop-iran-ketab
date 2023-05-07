@@ -14,3 +14,9 @@
         outline: 0;
     }
 }
+
+@layer utilities {
+    .tc-300 {
+        @apply transition-colors duration-300;
+    }
+}
