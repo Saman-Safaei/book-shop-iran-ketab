@@ -186,9 +186,9 @@ const Footer: FC<FooterProps> = () => {
           <span>طراحی شده با</span> <Heart className="inline" />{" "}
           <span>
             <span>توسط </span>
-            <a href='https://samansafaei.ir/' className="font-bold">سامان صفائی</a>
+            <a target='_blank' href='https://samansafaei.ir/' className="font-bold">سامان صفائی</a>
             <span> - ایده و دیزاین از </span>
-            <a href='https://fatemeweb.vercel.app/' className="font-bold">فاطمه غفاری</a>
+            <a target='_blank' href='https://fatemeweb.vercel.app/' className="font-bold">فاطمه غفاری</a>
           </span>
         </p>
       </div>
