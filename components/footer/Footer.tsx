@@ -19,38 +19,50 @@ export interface FooterProps {}
 const Footer: FC<FooterProps> = () => {
   return (
     <div className="bg-secondary-main text-text-50">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-4 pb-8 pt-10 px-4 gap-8 lg:gap-4">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 pb-8 pt-10 lg:grid-cols-4 lg:gap-4">
         <div>
-          <div className="grid grid-cols-2 lg:grid-cols-1 gap-2.5 lg:gap-8">
+          <div className="grid grid-cols-2 gap-2.5 lg:grid-cols-1 lg:gap-8">
             <div className="flex flex-col items-stretch gap-2.5">
-              <h5 className="text-primary-main font-bold text-lg">
+              <h5 className="text-lg font-bold text-primary-main">
                 حساب کاربری
               </h5>
               <ul className="flex flex-col items-stretch gap-2.5 text-sm">
                 <li>
-                  <Link href="/">ورود</Link>
+                  <Link className="tc-300 hover:text-primary-300" href="/">
+                    ورود
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/">ثبت نام</Link>
+                  <Link className="tc-300 hover:text-primary-300" href="/">
+                    ثبت نام
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/">حساب من</Link>
+                  <Link className="tc-300 hover:text-primary-300" href="/">
+                    حساب من
+                  </Link>
                 </li>
               </ul>
             </div>
             <div className="flex flex-col items-stretch gap-2.5">
-              <h5 className="text-primary-main font-bold text-lg">
+              <h5 className="text-lg font-bold text-primary-main">
                 راهنمای استفاده
               </h5>
               <ul className="flex flex-col items-stretch gap-2.5 text-sm">
                 <li>
-                  <Link href="/">راهنمای خرید</Link>
+                  <Link className="tc-300 hover:text-primary-300" href="/">
+                    راهنمای خرید
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/">قوانین</Link>
+                  <Link className="tc-300 hover:text-primary-300" href="/">
+                    قوانین
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/">راهنمای چالش کتابخوانی</Link>
+                  <Link className="tc-300 hover:text-primary-300" href="/">
+                    راهنمای چالش کتابخوانی
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -58,75 +70,97 @@ const Footer: FC<FooterProps> = () => {
         </div>
 
         <div className="flex flex-col gap-2.5">
-          <h5 className="text-primary-main font-bold text-lg">
+          <h5 className="text-lg font-bold text-primary-main">
             مجله اینترنتی شهر کتاب
           </h5>
-          <div className="grid grid-cols-2 lg:grid-cols-1 gap-2.5">
+          <div className="grid grid-cols-2 gap-2.5 lg:grid-cols-1">
             <ul className="flex flex-col items-stretch gap-2.5 text-sm">
               <li>
-                <Link href="/">مقاله روز</Link>
+                <Link className="tc-300 hover:text-primary-300" href="/">
+                  مقاله روز
+                </Link>
               </li>
               <li>
-                <Link href="/">نویسنده</Link>
+                <Link className="tc-300 hover:text-primary-300" href="/">
+                  نویسنده
+                </Link>
               </li>
               <li>
-                <Link href="/">نیم دانگ کتاب</Link>
+                <Link className="tc-300 hover:text-primary-300" href="/">
+                  نیم دانگ کتاب
+                </Link>
               </li>
               <li>
-                <Link href="/">شخصیت‌های جذاب داستان</Link>
+                <Link className="tc-300 hover:text-primary-300" href="/">
+                  شخصیت‌های جذاب داستان
+                </Link>
               </li>
             </ul>
             <ul className="flex flex-col items-stretch gap-2.5 text-sm">
               <li>
-                <Link href="/">مروری بر کتاب</Link>
+                <Link className="tc-300 hover:text-primary-300" href="/">
+                  مروری بر کتاب
+                </Link>
               </li>
               <li>
-                <Link href="/">کودک و نوجوان</Link>
+                <Link className="tc-300 hover:text-primary-300" href="/">
+                  کودک و نوجوان
+                </Link>
               </li>
               <li>
-                <Link href="/">اخبار ادبی</Link>
+                <Link className="tc-300 hover:text-primary-300" href="/">
+                  اخبار ادبی
+                </Link>
               </li>
               <li>
-                <Link href="/">اطلاعات عمومی</Link>
+                <Link className="tc-300 hover:text-primary-300" href="/">
+                  اطلاعات عمومی
+                </Link>
               </li>
             </ul>
           </div>
         </div>
 
         <div>
-          <div className="grid grid-cols-2 lg:grid-cols-1 gap-2.5 lg:gap-8">
+          <div className="grid grid-cols-2 gap-2.5 lg:grid-cols-1 lg:gap-8">
             <div className="flex flex-col items-stretch gap-2.5">
-              <h5 className="text-primary-main font-bold text-lg">
+              <h5 className="text-lg font-bold text-primary-main">
                 تماس با ما
               </h5>
               <ul className="flex flex-col items-stretch gap-2.5 text-sm">
                 <li>
-                  <Link href="/">راهنمای خرید</Link>
+                  <Link className="tc-300 hover:text-primary-300" href="/">
+                    راهنمای خرید
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/">قوانین</Link>
+                  <Link className="tc-300 hover:text-primary-300" href="/">
+                    قوانین
+                  </Link>
                 </li>
                 <li>
-                  <Link href="/">راهنمای چالش کتابخوانی</Link>
+                  <Link className="tc-300 hover:text-primary-300" href="/">
+                    راهنمای چالش کتابخوانی
+                  </Link>
                 </li>
               </ul>
             </div>
             <div className="flex flex-col items-stretch gap-2.5">
-              <h5 className="text-primary-main font-bold text-lg">
+              <h5 className="text-lg font-bold text-primary-main">
                 شبکه های اجتماعی
               </h5>
-              <ul className="flex flex-row items-center gap-4">
-                <li>
+              <ul className="flex flex-row items-center gap-2">
+                <li className="tc-300 block rounded-lg p-1 hover:bg-primary-main/30">
                   <Link href="/">
                     <Send2 size="30" variant="TwoTone" color="white" />
                   </Link>
                 </li>
-                <li>
+                <li className="tc-300 block rounded-lg p-1 hover:bg-primary-main/30">
                   <Link href="/">
                     <Instagram size="30" variant="TwoTone" color="white" />
                   </Link>
                 </li>
-                <li>
+                <li className="tc-300 block rounded-lg p-1 hover:bg-primary-main/30">
                   <Link href="/">
                     <Facebook size="30" variant="TwoTone" color="white" />
                   </Link>
@@ -137,12 +171,12 @@ const Footer: FC<FooterProps> = () => {
         </div>
 
         <div>
-          <div className="flex flex-col gap-3 items-stretch">
+          <div className="flex flex-col items-stretch gap-3">
             <div className="flex flex-row items-start gap-2">
               <Location
                 size="30"
                 variant="TwoTone"
-                color="#FD8F32"
+                color="white"
                 className="shrink-0"
               />
               <p>
@@ -154,7 +188,7 @@ const Footer: FC<FooterProps> = () => {
               <Call
                 size="30"
                 variant="TwoTone"
-                color="#FD8F32"
+                color="white"
                 className="shrink-0"
               />
               <p>
@@ -168,7 +202,7 @@ const Footer: FC<FooterProps> = () => {
               <Sms
                 size="30"
                 variant="TwoTone"
-                color="#FD8F32"
+                color="white"
                 className="shrink-0"
               />
               <p>info@iranketab.com</p>
@@ -186,9 +220,19 @@ const Footer: FC<FooterProps> = () => {
           <span>طراحی شده با</span> <Heart className="inline" />{" "}
           <span>
             <span>توسط </span>
-            <a target='_blank' href='https://samansafaei.ir/' className="font-bold">سامان صفائی</a>
+            <a
+              target="_blank"
+              href="https://samansafaei.ir/"
+              className="font-bold">
+              سامان صفائی
+            </a>
             <span> - ایده و دیزاین از </span>
-            <a target='_blank' href='https://fatemeweb.vercel.app/' className="font-bold">فاطمه غفاری</a>
+            <a
+              target="_blank"
+              href="https://fatemeweb.vercel.app/"
+              className="font-bold">
+              فاطمه غفاری
+            </a>
           </span>
         </p>
       </div>

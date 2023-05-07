@@ -9,6 +9,7 @@ import SiteBanner2 from "@/components/pages/home/SiteBanner2";
 import books from "@/assets/fake-data/new-books.json";
 import mostSellBooks from "@/assets/fake-data/most-sell-books.json";
 import discountBooks from "@/assets/fake-data/discount-books.json";
+import About from "@/components/pages/home/About";
 
 export interface HomePageProps {}
 
@@ -35,6 +36,7 @@ const HomePage: NextPageWithLayout<HomePageProps> = () => {
         products={discountBooks}
       />
       <SiteBanner2 />
+      <About />
     </Fragment>
   );
 };
