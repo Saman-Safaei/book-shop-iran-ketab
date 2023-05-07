@@ -17,7 +17,7 @@ const BooksSection: FC<BooksSectionProps> = (props) => {
       <div className="flex flex-row items-center justify-between py-4">
         <div className="flex flex-row items-center gap-2">
           {props.icon}
-          <h3 className='font-bold'>{props.title}</h3>
+          <h3 className='font-bold text-lg'>{props.title}</h3>
         </div>
         <button>
           <ArrowLeft size="24" />
