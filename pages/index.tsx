@@ -23,6 +23,7 @@ const HomePage: NextPageWithLayout<HomePageProps> = () => {
         products={books}
       />
       <BooksSection
+        variant="secondary"
         title="پر فروش ترین ها"
         category="most-sell"
         icon={<Crown size="26" />}

@@ -1,7 +1,7 @@
 import type { FC, ReactNode } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { ArrowLeft, ArrowLeft2, ArrowRight2} from "iconsax-react";
-import SliderBook from "@/components/book-slider/SliderBook";
+import { ArrowLeft, ArrowLeft2, ArrowRight2 } from "iconsax-react";
+import SliderBook from "@/components/book-slider/SilderBook/SliderBook";
 import BooksSectionButton from "@/components/book-slider/BooksSectionButton";
 
 export interface BooksSectionProps {
@@ -9,21 +9,25 @@ export interface BooksSectionProps {
   title: string;
   category: string;
   products: LimitedBook[];
+  variant?: "primary" | "secondary";
 }
 
-const BooksSection: FC<BooksSectionProps> = (props) => {
+const BooksSection: FC<BooksSectionProps> = ({
+  variant = "primary",
+  ...props
+}) => {
   return (
-    <section className="mx-auto max-w-7xl w-full px-4">
+    <section className="mx-auto w-full max-w-7xl px-4">
       <div className="flex flex-row items-center justify-between py-4">
         <div className="flex flex-row items-center gap-2">
           {props.icon}
-          <h3 className='font-bold text-lg'>{props.title}</h3>
+          <h3 className="text-lg font-bold">{props.title}</h3>
         </div>
         <button>
           <ArrowLeft size="24" />
         </button>
       </div>
-      <div className='px-10 sm:px-0 overflow-hidden'>
+      <div className="overflow-hidden px-10 sm:px-0">
         <Swiper
           slidesPerView={1}
           spaceBetween={32}
@@ -33,15 +37,28 @@ const BooksSection: FC<BooksSectionProps> = (props) => {
             1024: { slidesPerView: 5 },
             1280: { slidesPerView: 6 },
           }}
-          className='!overflow-visible sm:!overflow-hidden'
+          className="!overflow-visible sm:!overflow-hidden"
           dir="rtl">
-          <BooksSectionButton position='right' slot='container-start' icon={<ArrowRight2 size='18' />} />
+          <BooksSectionButton
+            position="right"
+            slot="container-start"
+            icon={<ArrowRight2 size="18" />}
+          />
           {props.products.map((product) => (
             <SwiperSlide key={product.id}>
-              <SliderBook image={product.image} title={product.title} price={product.price} />
+              <SliderBook
+                variant={variant}
+                image={product.image}
+                title={product.title}
+                price={product.price}
+              />
             </SwiperSlide>
           ))}
-          <BooksSectionButton position='left' slot='container-end' icon={<ArrowLeft2 size='18' />} />
+          <BooksSectionButton
+            position="left"
+            slot="container-end"
+            icon={<ArrowLeft2 size="18" />}
+          />
         </Swiper>
       </div>
     </section>
